@@ -39,10 +39,10 @@ class Navbar extends Component {
                         <li><NavLink to='/about' exact >About</NavLink></li>
                         <li><NavLink to='/contact' exact >Contact</NavLink></li>
                     </ul>
-                    <ul class="NavbarSocialIcon">
-                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-github"></i></a></li>   
+                    <ul className="NavbarSocialIcon">
+                    <li><a href=""><i className="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i className="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i className="fab fa-github"></i></a></li>   
                 </ul>
                 </nav>
                 
