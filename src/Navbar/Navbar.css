@@ -35,3 +35,48 @@
 .NavbarIcon.action span:nth-child(3){
     transform:rotate(-45deg);
 }
+
+.Navbar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    transition: .5s;
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Navbar.action{
+    left: 0px;
+}
+
+.Navbar .NavbarMenu{
+    margin: 0;
+    padding: 10px 0;
+}
+.Navbar .NavbarMenu li{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Navbar .NavbarMenu li a{
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Navbar .NavbarMenu li a.active {
+    color: red;
+}
+.Navbar .NavbarMenu li a:hover{
+    background: #fc2827;
+    color: #fff;
+}
+
+
+

@@ -17,7 +17,7 @@ class Navbar extends Component {
                     <span></span>
                     <span></span>
                 </div>
-                <nav className='NavBar'>
+                <nav className='Navbar action'>
                     <ul className="NavbarMenu">
                     <li><NavLink to='/' exact >Home</NavLink></li>
                     <li><NavLink to='/about' exact >About</NavLink></li>
