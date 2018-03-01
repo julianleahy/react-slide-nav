@@ -29,7 +29,7 @@ class Navbar extends Component {
         return (
             <Aux>
                 <div className='NavWrap'>
-                <p className='NavTitle'>julianleahy.com</p>
+                    <p className='NavTitle'><a href="http://julianleahy.com/">julianleahy.com</a></p>
                     <div className={menuBtnClass.join(' ')} onClick={this.toggleMenu}>
                         <span></span>
                         <span></span>
@@ -50,13 +50,13 @@ class Navbar extends Component {
 
                 </div>
 
-                    <div className='PageContent'>
-                        <Route path="/" exact component={Home} />
-                        <Route path="/about" exact component={About} />
-                        <Route path="/contact" exact component={Contact} />
-                    </div>
+                <div className='PageContent'>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/about" exact component={About} />
+                    <Route path="/contact" exact component={Contact} />
+                </div>
 
-                
+
 
             </Aux >
         );
