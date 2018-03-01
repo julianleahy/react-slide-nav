@@ -25,7 +25,7 @@ class Navbar extends Component {
             menuBtnClass.push('action')
             navbarClass.push('action')
         }
-        
+
         return(
             <Aux>
                 <div className={menuBtnClass.join(' ')} onClick={this.toggleMenu}>
@@ -34,7 +34,7 @@ class Navbar extends Component {
                     <span></span>
                 </div>
                 <nav className={navbarClass.join(' ')}>
-                    <ul className="NavbarMenu">
+                    <ul className="NavbarMenu" onClick={this.toggleMenu}>
                     <li><NavLink to='/' exact >Home</NavLink></li>
                     <li><NavLink to='/about' exact >About</NavLink></li>
                     <li><NavLink to='/contact' exact >Contact</NavLink></li>
