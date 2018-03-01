@@ -12,12 +12,12 @@ class Navbar extends Component {
     render() {
         return(
             <Aux>
-                <div className='NavbarIcon action'>
+                <div className='NavbarIcon'>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <nav className='Navbar action'>
+                <nav className='Navbar'>
                     <ul className="NavbarMenu">
                     <li><NavLink to='/' exact >Home</NavLink></li>
                     <li><NavLink to='/about' exact >About</NavLink></li>
