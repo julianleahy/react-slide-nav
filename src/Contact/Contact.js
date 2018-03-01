@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import Aux from './../hoc/Aux';
 
 class Contact extends Component {
 
     render() {
-        return(
-            <h1>Contact Page</h1>
+        return (
+            <Aux>
+                <h1>Contact Page</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia praesentium doloremque aliquam at rem sint, autem ex rerum quia ducimus tempore sit minima laboriosam veniam quos! Error inventore beatae, cupiditate optio perferendis voluptates quo molestiae. Obcaecati, voluptate! Veniam doloribus harum quis porro provident repellendus quae voluptates, enim tempora ad nulla ipsam aspernatur, qui aliquid officia odio. Debitis quod sapiente facere nemo voluptates maxime! Odit, ex sapiente. Iusto porro tenetur perferendis molestiae magnam consequatur dignissimos laudantium quisquam atque dolor vel necessitatibus ad placeat reiciendis dicta, id commodi quia harum quo? Eum impedit fugit dolorum aperiam perferendis, provident excepturi saepe doloribus id! Cupiditate tenetur officia quod consequuntur voluptatibus modi deleniti mollitia quam officiis beatae quisquam quo, esse at quasi quis exercitationem voluptatum omnis excepturi ab nesciunt deserunt fugiat similique dolorem? Nisi explicabo vero debitis, quibusdam officiis assumenda incidunt cumque. Quis, nisi sapiente. Accusantium possimus placeat earum labore quasi ea animi? Assumenda dolore alias ea quia eius repudiandae eveniet voluptas dolorem iusto, quo nam aspernatur quibusdam, fugiat debitis sint quidem porro, excepturi temporibus voluptate architecto nulla dolor laudantium perferendis! Odio id sed eum quae consequuntur? Pariatur ea fuga architecto. Soluta molestias repellat possimus laudantium quia officia velit amet illum sed. Iste, reiciendis quam recusandae culpa distinctio voluptates velit molestiae maiores, vero facere, magni dignissimos. Quod esse beatae odit labore, ipsa dicta magnam illo est eum aspernatur ullam minima similique ad doloribus optio quisquam veritatis! Maiores harum fugiat aliquam tempore quis modi officia corrupti similique dicta aspernatur ea, debitis praesentium illo consequuntur deserunt hic ipsum perspiciatis voluptatem repudiandae voluptatum temporibus? Ea excepturi, dolores cum corrupti debitis incidunt eaque. Optio saepe quisquam iste exercitationem nisi, est eos consectetur quidem eaque officiis obcaecati quae velit maiores cum eum recusandae illo iusto esse reprehenderit magnam non. Optio harum ullam autem dolorem. Quo itaque saepe doloribus sit. Debitis, aperiam ipsa ipsam laudantium dignissimos vel, deserunt provident nostrum animi harum quod labore dolores fuga, odio eaque. Maiores delectus dicta sequi maxime temporibus, unde praesentium? Voluptatibus numquam quis labore veniam autem aliquid, quos tenetur accusantium perferendis eveniet ipsum? Provident mollitia explicabo voluptatibus itaque cum odio doloribus libero quod quasi consectetur. Excepturi rem consectetur nulla eos quis cum quidem deleniti rerum? Reiciendis eligendi optio omnis ullam veniam, rerum atque quisquam deserunt ipsam repellat dolorem praesentium a fugiat modi dolor tempora nostrum dolorum deleniti. Magni, deleniti iste quam atque eaque molestiae. Tenetur obcaecati autem quisquam, pariatur vel provident esse explicabo voluptatem dignissimos atque libero minima id amet sint architecto cupiditate temporibus magni ipsum dicta? Cupiditate vitae dicta eius, harum, accusantium architecto, odit explicabo nesciunt libero ex fugit dolor quidem alias minima tempora aperiam? Harum, ut recusandae aspernatur vitae maxime tenetur labore ullam placeat aut blanditiis fuga porro corrupti doloribus explicabo dignissimos odio quae numquam nobis at.
+                </p>
+            </Aux>
+            
         );
     }
 }
