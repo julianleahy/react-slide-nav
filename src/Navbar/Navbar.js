@@ -10,14 +10,16 @@ import './Navbar.css'
 class Navbar extends Component {
 
     render() {
+        let menuBtnClass = ['NavbarIcon'];
+        let navbarClass = ['Navbar'];
         return(
             <Aux>
-                <div className='NavbarIcon'>
+                <div className={menuBtnClass.join(' ')}>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <nav className='Navbar'>
+                <nav className={navbarClass.join(' ')}>
                     <ul className="NavbarMenu">
                     <li><NavLink to='/' exact >Home</NavLink></li>
                     <li><NavLink to='/about' exact >About</NavLink></li>
