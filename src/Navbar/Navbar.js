@@ -12,7 +12,7 @@ class Navbar extends Component {
     render() {
         return(
             <Aux>
-                <div className='NavbarIcon'>
+                <div className='NavbarIcon action'>
                     <span></span>
                     <span></span>
                     <span></span>

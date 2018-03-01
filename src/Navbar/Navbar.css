@@ -19,3 +19,19 @@
     margin: 6px 0;
     transition: .5s;
 }
+
+.NavbarIcon.action span{
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(50% - 8px);
+}
+
+.NavbarIcon.action span:nth-child(1){
+    transform:rotate(45deg);
+}
+.NavbarIcon.action span:nth-child(2){
+    display: none;
+}
+.NavbarIcon.action span:nth-child(3){
+    transform:rotate(-45deg);
+}
