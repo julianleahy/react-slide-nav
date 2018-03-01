@@ -78,5 +78,13 @@
     color: #fff;
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .Navbar{
+        left: -250px;
+        width: 250px;   
+    }
+}
+
 
 
