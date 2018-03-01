@@ -1,19 +1,12 @@
 .GitWrap {
-    display: none;
+    display: block;
     position: fixed;
-    top:10px;
-    right: 60px;
+    bottom:10px;
+    right: 5px;
     height: 40px;
     line-height: 40px;
     width: 170px;
     z-index: 9;
-}
-
-
-@media (min-width: 600px) {
-  .GitWrap {
-    display: block
-  }
 }
 
 
