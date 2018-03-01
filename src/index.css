@@ -4,7 +4,12 @@ body {
   font-family: sans-serif;
 }
 
+.PageContent {
+    max-width: 900px;
+    margin: 55px auto;
+}
 
 h1 {
     text-align: center;
 }
+
