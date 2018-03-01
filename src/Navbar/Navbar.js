@@ -20,6 +20,12 @@ class Navbar extends Component {
     render() {
         let menuBtnClass = ['NavbarIcon'];
         let navbarClass = ['Navbar'];
+
+        if(this.state.isMenuOpen) {
+            menuBtnClass.push('action')
+            navbarClass.push('action')
+        }
+        
         return(
             <Aux>
                 <div className={menuBtnClass.join(' ')} onClick={this.toggleMenu}>
