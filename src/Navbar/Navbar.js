@@ -9,6 +9,10 @@ import './Navbar.css'
 
 class Navbar extends Component {
 
+    state = {
+        isMenuOpen : false
+    }
+
     render() {
         let menuBtnClass = ['NavbarIcon'];
         let navbarClass = ['Navbar'];
