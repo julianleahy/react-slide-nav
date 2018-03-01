@@ -7,6 +7,7 @@ body {
 .PageContent {
     max-width: 900px;
     margin: 55px auto;
+    padding: 20px;
 }
 
 h1 {
