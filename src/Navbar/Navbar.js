@@ -10,23 +10,23 @@ import './Navbar.css'
 class Navbar extends Component {
 
     state = {
-        isMenuOpen : false
+        isMenuOpen: false
     }
 
-    toggleMenu = () => {  
-        this.setState({isMenuOpen : !this.state.isMenuOpen})
+    toggleMenu = () => {
+        this.setState({ isMenuOpen: !this.state.isMenuOpen })
     }
 
     render() {
         let menuBtnClass = ['NavbarIcon'];
         let navbarClass = ['Navbar'];
 
-        if(this.state.isMenuOpen) {
+        if (this.state.isMenuOpen) {
             menuBtnClass.push('action')
             navbarClass.push('action')
         }
 
-        return(
+        return (
             <Aux>
                 <div className={menuBtnClass.join(' ')} onClick={this.toggleMenu}>
                     <span></span>
@@ -35,15 +35,23 @@ class Navbar extends Component {
                 </div>
                 <nav className={navbarClass.join(' ')}>
                     <ul className="NavbarMenu" onClick={this.toggleMenu}>
-                    <li><NavLink to='/' exact >Home</NavLink></li>
-                    <li><NavLink to='/about' exact >About</NavLink></li>
-                    <li><NavLink to='/contact' exact >Contact</NavLink></li>
+                        <li><NavLink to='/' exact >Home</NavLink></li>
+                        <li><NavLink to='/about' exact >About</NavLink></li>
+                        <li><NavLink to='/contact' exact >Contact</NavLink></li>
                     </ul>
+                    <ul class="NavbarSocialIcon">
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>   
+                </ul>
                 </nav>
-                <Route path="/" exact component={Home} />
-                <Route path="/about" exact component={About} />
-                <Route path="/contact" exact component={Contact} />
-            </Aux>
+                
+    
+
+            <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            </Aux >
         );
     }
 }
