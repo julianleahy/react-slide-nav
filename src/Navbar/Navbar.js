@@ -13,12 +13,16 @@ class Navbar extends Component {
         isMenuOpen : false
     }
 
+    toggleMenu = () => {  
+        this.setState({isMenuOpen : !this.state.isMenuOpen})
+    }
+
     render() {
         let menuBtnClass = ['NavbarIcon'];
         let navbarClass = ['Navbar'];
         return(
             <Aux>
-                <div className={menuBtnClass.join(' ')}>
+                <div className={menuBtnClass.join(' ')} onClick={this.toggleMenu}>
                     <span></span>
                     <span></span>
                     <span></span>
